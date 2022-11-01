@@ -10,8 +10,23 @@
     <body>
         <main>
             <h1>Generate a <span>random password</span></h1>
-            <p>Never use an unsecure password again</p>
-            
+            <p>Never use an unsecure password again.</p>
+            <div id="preference">
+                <label for="pw-length" id="pw-length">Password Length: </label>
+                <input type="text" name="pw-length" id="pw-length"> <br>
+                
+                <input type="checkbox" name="" id="yes-to-num">
+                <label for="numbers">Numbers</label> <br>
+
+                <input type="checkbox" name="" id="yes-to-sym">
+                <label for="numbers">Symbols</label> <br>
+
+                <button id="generate">Generate passwords</button>
+            </div>
+            <div id="results">
+                <button id="password1">test</button>
+                <button id="password2">test</button>
+            </div>
         </main>
         <script src="./assets/js/index.js"></script>
     </body>
